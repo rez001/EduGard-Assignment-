@@ -7,6 +7,6 @@
 * "EduGrad Final Assignment.ipynb" is my final assignment code.
 
 ## Links
-* [EduGard] (https://www.edugrad.com)
-* [Course] (https://www.edugrad.com/hands-on-python-programming-be-a-pro)
-* [Certificate] (https://www.edugrad.com/certificate/10513/6)
+* [EduGard](https://www.edugrad.com)
+* [Course](https://www.edugrad.com/hands-on-python-programming-be-a-pro)
+* [Certificate](https://www.edugrad.com/certificate/10513/6)
