@@ -1,0 +1,183 @@
+Final Assignment
+Instructions -
+
+
+
+All the coding questions needs to be done in single Jupyter Notebook (.ipynb) file.
+Read the question carefully, before attempting.
+Mention proper Question Number, while solving
+
+
+Q.1) With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+
+
+
+Example -
+
+Input - 8
+
+Output - {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+
+
+
+Q.2) Write a Python program to create the multiplication table (from 1 to 10) of a number.
+
+Expected Output:
+
+
+
+Input a number: 6
+
+6 x 1 = 6
+
+6 x 2 = 12
+
+6 x 3 = 18
+
+6 x 4 = 24
+
+6 x 5 = 30
+
+6 x 6 = 36
+
+6 x 7 = 42
+
+6 x 8 = 48
+
+6 x 9 = 54
+
+6 x 10 = 60
+
+
+
+Q.3) Write a program to add all the numbers of a List.
+
+Given the numbers 6, 50, 100, 7000. Store them in a List called items. Store the sum of all the numbers in the List items into a variable called total. Print the sum on the screen using the variable total.
+
+
+
+Q.4) a) Ask user to enter name, age, city and course using comma as a separator. Store these values in a tuple called student
+
+
+
+b) Store the count of total number of elements present in the tuple student in a variable called
+
+tup_count.
+
+
+
+Display the value of tup_count on the screen
+
+
+
+c) Using the tuple variable student, store the student data in separate variables namely s_name,
+
+s_age,
+
+s_city and s_course.
+
+
+
+d) Display the student information on the screen using the four variables created above.
+
+
+
+Q.5) a) Create a dictionary variable called colors in Python having keys as col1, col2 and col3
+
+containing values Red, Blue, Yellow respectively.
+
+
+
+b) Add another key col4 into the colors Dictionary having value as Green.
+
+
+
+c) Update the col2 values as Orange
+
+
+
+d) Print the dictionary on the screen
+
+
+
+e) Create a new Dictionary object colors_new from the colors Dictionary, having the keys col1
+
+and col2
+
+
+
+Instruction – Use the fromkeys() method
+
+
+
+f) Print all the values of both the Dictionary colors and colors_new on the screen.
+
+
+
+g) Remove all the elements from the Dictionary colors and print its content on the screen. (It should print an empty Dictionary)
+
+
+
+h) Print the value of key col2 from the Dictionary colors_new on the screen
+
+
+
+Q.6) Using range() function, make a list containing all the prime numbers between 1 to 100.
+
+
+
+Q.7) Write a Python function called ftn_count_upper_lower that accepts a string and calculate the
+
+number of uppercase letters and lowercase letters.
+
+Sample String : &amp;#39;Hello My name is Ram&amp;#39;
+
+Expected Output :
+
+No. of Uppercase characters : 3
+
+No. of Lowercase Characters : 13
+
+(Hint:- Make use of islower() or isupper() function to check whether character of string entered is in lowercase or uppercase respectively.)
+
+
+
+Q.8) In a company named XYZ, employee data is recorded in a spreadsheet called “employee_list.csv”.
+
+Few more people have joined this company and their data is stored in a file “new_records.csv”. This data has to be added in the “employee_list.csv” based on following condition -
+
+
+
+a) The format of “employee_list.csv” is employee code, first name, last name, home city, age, current city
+
+
+
+b) The format of “new_records.csv” is employee code, full name, home city, age, current city
+
+
+
+c) The employee code column in “new_records.csv” is prefixed by a three digit code related to
+
+type of employee as defined below
+
+emp – for permanent employees
+
+other than emp – for contractual and other type of employees
+
+
+
+d) Add only the permanant employees in the employee_list.csv
+
+
+
+e) Create a new separate file for the contractual and other type of employees, file name will be
+
+“contractors_list.csv”
+
+
+
+f) the employee code recorded in the employee_list.csv will be only integer, you need to remove character prefixed to the employee code
+
+
+
+g)handle the file and number-type exceptions wherever appropriate
